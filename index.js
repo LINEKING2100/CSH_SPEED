@@ -15,7 +15,7 @@ window.onload = function () {
     recode4 = Number(localStorage.getItem("recode4"))
     document.getElementById("score1").innerHTML = 'RECORD : ' + recode1
     info = document.getElementById("info")
-    info.style.left = '280px'
+    info.style.left = '240px'
 }
 
 function startdown() {
