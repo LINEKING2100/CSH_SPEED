@@ -2,6 +2,18 @@ body {
     background-color: rgb(26, 31, 29);
 }
 
+#info {
+    position: absolute;
+    top: 20%; left: -300px ; 
+    transform: translate(-50%, -50%);
+    font-size: 27;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.534);
+    transition: all 1.5s;
+}
+
 h1 {
     position: absolute;
     top: 15%; left: 50% ; 
@@ -102,9 +114,9 @@ h2 {
     position: absolute;
     top: 75%; left: 50% ; 
     transform: translate(-50%, -50%);
-    width: 100%;
+    width: 55%;
     height: 25%;
-    background-color: rgba(13, 17, 16, 0.534);
+    background-color: rgb(45, 58, 53);
 }
 
 #n1 {
@@ -135,7 +147,7 @@ h2 {
     z-index: 1000;
 
     position: absolute;
-    top: 25%; left: 75% ; 
+    top: 25%; left: 80% ; 
     transform: translate(-50%, -50%);
 
     color: white;
@@ -157,7 +169,7 @@ h2 {
     z-index: 1000;
 
     position: absolute;
-    top: 21%; left: 100% ; 
+    top: 21%; left: 110% ; 
     transform: translate(-50%, -50%);
 
     color: white;
@@ -179,7 +191,7 @@ h2 {
     z-index: 1000;
 
     position: absolute;
-    top: 33%; left: 125% ; 
+    top: 33%; left: 140% ; 
     transform: translate(-50%, -50%);
 
     color: white;
@@ -201,7 +213,7 @@ h2 {
     z-index: 1000;
 
     position: absolute;
-    top: 21%; left: 25% ; 
+    top: 21%; left: 20% ; 
     transform: translate(-50%, -50%);
 
     color: white;
@@ -223,7 +235,7 @@ h2 {
     z-index: 1000;
 
     position: absolute;
-    top: 33.5%; left: 0% ; 
+    top: 33.5%; left: -10% ; 
     transform: translate(-50%, -50%);
 
     color: white;

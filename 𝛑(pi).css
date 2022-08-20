@@ -1,0 +1,186 @@
+body {
+    background-color: rgb(26, 31, 29);
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+
+#score1 {
+    color: rgb(26, 31, 29);
+}
+
+.timer {
+    position: relative;
+    top: 4%; left: 50% ; 
+    transform: translate(-50%, -50%);
+    height: 2.5%;
+    width: 90%;
+    background-color: rgb(90, 90, 90);
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#timer2 {
+    position: absolute;
+    height: 100%; width: 100%;
+    background-color: rgb(71, 226, 97);
+    top: 0; left: 0%;
+    border-radius: 50px;
+    transition: .1s;
+    transition-timing-function: linear;
+}
+
+.life {
+    position: relative;
+    top: 50%; left: 36% ; 
+    transform: translate(-50%, -50%);
+    height: 45%;
+    width: 45px;
+    overflow: hidden;
+}
+
+#life2 {
+    position: absolute;
+    height: 45%; width: 100%;
+    background-color: rgb(226, 71, 71);
+    top: 0%; left: 0%;
+    padding: 1% 1%;
+    border-radius: 15px 30px 15px 15px; 
+    transition: .1s;
+    transition-timing-function: linear;
+}
+
+#life1 {
+    position: absolute;
+    height: 45%; width: 100%;
+    background-color: rgb(226, 71, 71);
+    top: 55%; left: 0%;
+    padding: 1% 1%;
+    border-radius: 15px 15px 15px 30px; 
+    transition: .1s;
+    transition-timing-function: linear;
+}
+
+h6 {
+    position: absolute;
+    top: -23.5%; left: 50% ; 
+    transform: translate(-50%, -50%);
+    font-size: 300;
+    padding: 15% 45.4%;
+    color: white;
+    z-index: +100000;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+
+h1 {
+    position: absolute;
+    top: 10%; left: 50% ; 
+    transform: translate(-50%, -50%);
+    font-size: 80;
+    color: white;
+}
+
+h3 {
+    position: absolute;
+    top: 20%; left: 15% ; 
+    transform: translate(-50%, -50%);
+    font-size: 50;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 5px 25px;
+    background-color: rgb(51, 56, 52);
+    box-shadow: -10px 10px 25px rgb(0, 0, 0);
+}
+
+h4 {
+    position: absolute;
+    top: 16.5%; left: 50% ; 
+    transform: translate(-50%, -50%);
+    font-size: 50;
+    color: white;
+    letter-spacing: 8px;
+}
+
+h5 {
+    font-size: 25;
+    color: white;
+    border-style: bold;
+}
+
+.past {
+    padding: 0px 25px;
+    position: absolute;
+    top: 54.5%; left: 75% ; 
+    transform: translate(-50%, -50%);
+    width: 15%; height: 50%;
+    background-color: rgba(0, 0, 0, 0.664);
+    word-break:break-all;
+}
+
+.a123 {   
+    position: absolute;
+    top:36%; left: 50% ; 
+    transform: translate(-50%, -50%); 
+    letter-spacing: 8px;
+}
+
+.i1,.i2,.i3 {   
+    font-size: 50;
+    color: rgb(146, 146, 146);
+    padding: 30px 40px; 
+    background-color: rgb(61, 45, 45);
+    font-weight: bold;
+} 
+
+.a456 {   
+    position: absolute;
+    top:50%; left: 50% ; 
+    transform: translate(-50%, -50%); 
+    letter-spacing: 8px;
+}
+
+.i4,.i5,.i6 {   
+    font-size: 50;
+    color: rgb(146, 146, 146);
+    padding: 30px 40px; 
+    background-color: rgb(61, 53, 45);
+    font-weight: bold;
+} 
+
+.a789 {   
+    position: absolute;
+    top:64%; left: 50% ; 
+    transform: translate(-50%, -50%); 
+    letter-spacing: 8px;
+}
+
+.i7,.i8,.i9 {   
+    font-size: 50;
+    color: rgb(146, 146, 146);
+    padding: 30px 40px; 
+    background-color: rgb(61, 60, 45);
+    font-weight: bold;
+    position: relative;
+} 
+
+.i0 {   
+    position: absolute;
+    top:78%; left: 50% ; 
+    transform: translate(-50%, -50%); 
+    font-size: 50;
+    color: rgb(146, 146, 146);
+    padding: 30px 40px; 
+    background-color: rgb(50, 61, 45);
+    font-weight: bold;
+
+} 
+
+.i1:hover, .i2:hover, .i3:hover, .i4:hover, .i5:hover, .i6:hover, .i7:hover, .i8:hover, .i9:hover, .i0:hover {
+    background-color: rgb(71, 226, 97);
+}
+
+.i1:active, .i2:active, .i3:active, .i4:active, .i5:active, .i6:active, .i7:active, .i8:active, .i9:active, .i0:active {
+    background-color: rgb(185, 226, 71);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
