@@ -45,9 +45,9 @@ function roundup() {
     document.getElementById("core").innerHTML = '𝛑(pi)'
     score += 1
     result = 1
-    if (position_bar <= -10) {
+    if (position_bar <= -30) {
         if (life == 2) {
-            position_bar += 10
+            position_bar += 30
         }
     }
     else {
